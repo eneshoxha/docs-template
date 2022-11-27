@@ -83,6 +83,8 @@ rel  = "sitemap"
     weight = 10
 
 [module]
+  [[module.imports]]
+    path = "github.com/gohugoio/hugo-mod-bootstrap-scss/v5"
   [module.hugoVersion]
     extended = true
     min = "0.80.0"
