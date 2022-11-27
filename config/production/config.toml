@@ -86,14 +86,7 @@ rel  = "sitemap"
   [module.hugoVersion]
     extended = true
     min = "0.80.0"
-    max = ""
-    
-  [[module.imports]]
-    path = "github.com/gohugoio/hugo-mod-bootstrap-scss-v4"
-  [[module.mounts]]
-    source = "scss"
-    target = "assets/scss/bootstrap"
-    
+    max = "" 
   [[module.mounts]]
     source = "assets"
     target = "assets"
