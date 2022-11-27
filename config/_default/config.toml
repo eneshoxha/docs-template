@@ -89,7 +89,7 @@ rel  = "sitemap"
     max = ""
     
   [[module.imports]]
-    path = "github.com/gohugoio/hugo-mod-bootstrap-scss-v5"
+    path = "github.com/gohugoio/hugo-mod-bootstrap-scss-v4"
   [[module.mounts]]
     source = "scss"
     target = "assets/scss/bootstrap"
